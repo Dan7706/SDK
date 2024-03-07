@@ -1,0 +1,42 @@
+An SDK (Software Development Kit) is a set of tools, libraries, documentation, 
+and code samples that developers use to create software applications for a specific platform, framework, or programming language.
+
+The purpose of  SDKs is  streamline the development process by providing pre-built components and 
+APIs (Application Programming Interfaces) that developers can integrate into their applications.
+
+They abstract away low-level complexities and provide higher-level abstractions to interact with the platform or services.
+
+There are Platform SDKs:
+			|-- These SDKs are provided by platform vendors (e.g., iOS SDK, Android SDK) to build applications for their platforms.
+
+		 Web SDKs:
+			|--These SDKs enable developers to integrate web services, APIs, or libraries into web applications.
+
+		Language-specific SDKs:
+			|-- These SDKs provide tools and libraries tailored for specific programming languages (e.g., Python SDKs, Java SDKs).
+
+		Service SDKs:
+			|--These SDKs facilitate interaction with specific services or APIs provided by companies or platforms (e.g., AWS SDK, Google Cloud SDK).
+
+
+Components:
+		Libraries: 
+			Pre-written code modules that provide specific functionality.
+		APIs: 
+			Interfaces that define how software components should interact.
+		Documentation:
+			 Guides, tutorials, and reference materials that help developers understand and use the SDK.
+		Tools: 
+			Utilities for debugging, testing, and managing the development process.
+		Integration: 
+			Developers typically integrate an SDK into their applications by importing the necessary libraries, initializing the SDK, and using its functions or APIs to access platform features or services.
+		Versioning: 
+			SDKs are often versioned to track changes and updates. Developers should be aware of version compatibility when using SDKs to ensure compatibility with their applications.
+		Community Support: 
+			Many SDKs have active developer communities that provide support, share best practices, and contribute to the improvement of the SDK.
+		Security: 
+			SDKs may interact with sensitive data or resources, so it's essential to follow security best practices and guidelines provided by the SDK vendor.
+		Licensing: 
+			SDKs may be subject to licensing agreements, which developers should review and comply with when using the SDK in their applications.
+		Updates and Maintenance:
+			 SDK vendors regularly release updates and patches to improve functionality, fix bugs, and address security vulnerabilities. Developers should stay informed about updates and incorporate them into their applications as needed.
