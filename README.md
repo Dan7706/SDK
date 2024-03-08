@@ -51,11 +51,11 @@ setup(
         #List of dependencies if ther are any
         ],
     description="Your SDK description",
-    long_description=open('README.me", "r").read(), #you have to write inside README
+    long_description=open("README.me", "r").read(), #you have to write inside README
     long_description_content_type="text/markdown",
     author="Author's Name",                        #non mandatory
     author_email="Author's email",                 #non mandatory
-    url="https://github.com/yourusername/sdk_repo  #non mandatory
+    url="https://github.com/yourusername/sdk_repo"  #non mandatory
     
     )
 
