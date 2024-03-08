@@ -6,6 +6,9 @@ class OpenWeatherMapSDK:
         self.api = OpenWeatherMapAPI(apikey)
         self.mode = mode
         self.weather_cache = {}
+    
+    def __del__(self):
+        print("OpenWeatherMapAPI instance deleted!")
 
     def get_city_weather(self, city):
         """This function checks the city weather information in cache"""
