@@ -9,6 +9,6 @@ from database.db import Database  #importing the Database class from db.py
 
 db = Database("database.db")   # creating an instance of our database class and giving him .db file
 
-db.user_exixts() # for example will return True if the user is in the database
+db.user_exixts(1234567890) # for example will return True if the user is in the database
 
 #END
